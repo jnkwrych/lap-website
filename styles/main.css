@@ -16,3 +16,8 @@
     --pico-primary-focus: rgba(244, 93, 44, 0.5);
     --pico-primary-inverse: #fff;
 }
+
+.mono-font {
+    font-family: "DM Mono";
+    color: #FF5711;
+}
