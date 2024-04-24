@@ -21,3 +21,7 @@
     font-family: "DM Mono";
     color: #FF5711;
 }
+
+.centered-text {
+    text-align: center;
+}
