@@ -2,18 +2,20 @@
     --pico-font-family: "DM Sans", sans-serif;
 }
 
-/* Orange color for light color scheme (Default) */
-/* Can be forced with data-theme="light" */
+
+/* Can be forced with data-theme="light"*/
 [data-theme=light],
 :root:not([data-theme=dark]) {
     --pico-background-color: #E5E5E5;
-    --pico-text-selection-color: rgba(244, 93, 44, 0.25);
+    /*Main Backgroud*/
+    /*Override standard pico orange theme*/
+    --pico-text-selection-color: rgba(224, 78, 15, 0.25);
     --pico-primary: #FF5711;
-    --pico-primary-background: #E5E5E5;;
-    --pico-primary-underline: rgba(189, 60, 19, 0.5);
+    --pico-primary-background: #ff5107;
+    --pico-primary-underline: rgba(200, 63, 21, 0.5);
     --pico-primary-hover: #942d0d;
-    --pico-primary-hover-background: #bd3c13;
-    --pico-primary-focus: rgba(244, 93, 44, 0.5);
+    --pico-primary-hover-background: #FF5711;
+    --pico-primary-focus: rgba(224, 78, 15, 0.5);
     --pico-primary-inverse: #fff;
 }
 
@@ -26,5 +28,32 @@
 }
 
 .centered-text {
-  text-align: center;
+    text-align: center;
+}
+
+.center-items {
+    align-items: center;
+}
+
+section {
+    padding-bottom: 8rem;
+}
+
+.p-b-2 {
+    padding-bottom: 2rem;
+}
+
+.p-b-6 {
+    padding-bottom: 6rem;
+}
+
+.p-h-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media (min-width: 768px) {
+    .hero-image {
+        padding-left: 10%;
+    }
 }

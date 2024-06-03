@@ -5,71 +5,88 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark" />
-    <link rel="stylesheet" href="/styles/pico.pumpkin.min.css" />
+    <link rel="stylesheet" href="/styles/pico.orange.min.css" />
     <link rel="stylesheet" href="/styles/main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
 
     <title>"hello, world"</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <a href="/"><img src="/img/blt-logo.svg" alt="BLT Logo" style="height: 80px;"></a>
-            <nav>
-                <ul>
-                    <li>
-                        <a class="contrast" href="#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="container">
+            <ul>
+                <li><a href="/"><img src="/img/blt-logo.svg" alt="BLT Logo" style="height: 60px;"></a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a class="contrast" href="#contact">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main class="container">
-        <section id="hero" class="grid">
+        <section id="hero" class="grid center-items">
             <div>
-                <h1>Revolutionieren Sie Ihr Fahrradleasinggeschäft!</h1>
-                <p>Unsere innovative Leasing Automation Platform bietet eine nahtlose und effiziente Verwaltung des gesamten Fahrrad-Leasingprozesses.</p>
-                <button class="primary"><a href="/demo">Kostenlose Demo</a></button>
-                <button class="outline"><a href="/kontakt" class="secondary">Kontakt aufnehmen</a></button>
-                <p>Nahtlose Integration in Ihre bestehenden Systeme. Reduziert manuelle Eingaben, um Fehler zu minimieren und Aufwände zu senken.</p>
+                <h1>Alle Fahrrad-Leasing-Anbieter in einer Platform</h1>
+                <p>
+                    Unsere innovative <strong>Leasing Automation Platform</strong> bietet eine einheitliche und
+                    effiziente Verwaltung des
+                    gesamten Fahrrad-Leasingprozesses <strong>vom Kauf bis zur Inspektion</strong>.
+                </p>
+                <p class="p-b-2">Nahtlose Integration in Ihre bestehenden Systeme. Reduziert manuelle Eingaben und
+                    unzählige Logins, um <strong>Aufwände zu senken</strong> und <strong>Fehler zu minimieren</strong>.
+                </p>
+                <div class="grid">
+                    <a role="button" href="/demo">Kostenlose Demo</a>
+                    <a href="/kontakt" role="button" class="outline">Kontakt aufnehmen</a>
+                </div>
             </div>
             <div>
-                <img src="/img/lap-portal-tablet-preview.png" alt="Leasing Automation Platform Portal iPad">
+                <img src="/img/lap-portal-tablet-preview.png" alt="Leasing Automation Platform Portal iPad"
+                    class="hero-image" />
             </div>
         </section>
 
         <section id="benefits">
-            <h2>Vorteile für Ihr Unternehmen durch die Leasing Automation Platform</h2>
+            <h2 class="p-b-2">Vorteile für Ihr Unternehmen durch die Leasing Automation Platform</h2>
             <div class="grid">
                 <div>
                     <article>
-                        <img src="/img/problem-example.jpg" alt="Problem Example">
-                        <h3>Ohne Leasing Automation</h3>
+                        <h3 class="p-b-2">Ohne Leasing Automation Platform</h3>
                         <ul>
-                            <li>Herausforderungen bei Leasingoptionen in Online-Shops</li>
-                            <li>Zeitaufwendige und fehleranfällige Prozesse</li>
-                            <li>Hohe Außenstände durch ungesicherte Bestellungen</li>
-                            <li>Stornierungen durch fehlerhafte Bestellungen</li>
+                            <li>Mitarbeiter müssen sich bei verschiedenen Leasing-Portalen durchklicken</li>
+                            <li>Leasing-Prozesse passieren in vielen unterschiedlichen Systemen. Teilweise sogar analog
+                            </li>
+                            <li>Faktura an Leasing-Anbieter ist nicht einheitlich und teilweise komplex</li>
+                            <li>Inspektions- und Wartungskosten sind bei den Leasing-Anbietern unterschiedlich</li>
+                            <li>Status der Leasing-Freigaben muss manuell geprüft werden</li>
+                            <li>Integration von Leasing-Anbietern in Online Shops erfordert erheblichen Aufwand</li>
+                            <li>Die Passwörter zu den Leasing-Portalen werden unter den Mitarbeitern geteilt</li>
                         </ul>
                     </article>
                 </div>
                 <div>
                     <article>
-                        <img src="/img/solution-example.jpg" alt="Solution Example">
-                        <h3>Mit der Leasing Automation Platform</h3>
+                        <h3 class="p-b-2">Mit Leasing Automation Platform</h3>
                         <ul>
-                            <li>Effizienzsteigerung durch Automatisierung</li>
-                            <li>Kostensenkung durch Fehlervermeidung</li>
-                            <li>Schnellere Prozesse und mehr Zeit für Kunden</li>
-                            <li>Einheitliche Verwaltung aller Leasinganbieter</li>
-                            <li>Integration in bestehende Systeme</li>
-                            <li>Bessere Kundenerfahrung</li>
+                            <li>Zentrale Verwaltung: Einheitliche Eingabemaske & Verwaltung aller Leasing-Anbieter</li>
+                            <li>Integration: Nahtlose Anbindung an bestehende Systeme wie POS, ERP und Online-Shops</li>
+                            <li>Effizienzsteigerung: Reduzierung des administrativen Aufwands durch Automatisierung der
+                                Leasingprozesse</li>
+                            <li>Weniger Fehleingaben durch minimierung der manuellen Eingaben</li>
+                            <li>Mehr Zeit für die Kundenbetreuung durch Beschleunigung der Genehmigungsprozesse</li>
+                            <li>Einfache Integration in Online Shop per Plugin</li>
+                            <li>DSGVO-Konform: Sichere Account-Verwaltung. Serverstandort: Deutschland.</li>
                         </ul>
                     </article>
                 </div>
@@ -77,31 +94,33 @@
         </section>
 
         <section id="features">
-                <h2>Kernfunktionen der Leasing Automation Platform</h2>
-            <div class="grid">
-                <div class="feature-item">
+            <h2 class="p-b-2">Kernfunktionen der Leasing Automation Platform</h2>
+            <div>
+                <div class="grid p-b-6">
                     <div>
                         <h3>Automatisierte Datenverarbeitung</h3>
                         <p>Vollständige Automatisierung des Datentransfers zwischen Händlern und Leasinganbietern.</p>
 
                     </div>
-                    <img src="/img/automated-data-processing.jpg" alt="Automatisierte Datenverarbeitung">
+                    <img src="/img/automated-data-processing.jpg" alt="Automatisierte Datenverarbeitung" class="p-h-2">
                 </div>
-                <div class="feature-item">
-                    <img src="/img/realtime-updates.jpg" alt="Echtzeit-Updates">
+                <div class="grid grid p-b-6">
+                    <img src="/img/realtime-updates.jpg" alt="Echtzeit-Updates" class="p-h-2">
                     <div>
                         <h3>Echtzeit-Updates</h3>
-                        <p>Ständige Aktualisierung der Leasingstatus in Echtzeit, um Händlern und Kunden stets den aktuellen Stand zu bieten.</p>
+                        <p>Ständige Aktualisierung der Leasingstatus in Echtzeit, um Händlern und Kunden stets den
+                            aktuellen Stand zu bieten.</p>
 
                     </div>
                 </div>
-                <div class="feature-item">
+                <div class="grid">
                     <div>
                         <h3>Flexible API-Integration</h3>
-                        <p>Einfache Integration mit verschiedenen Systemen und Leasinganbietern über flexible APIs.</p>
+                        <p>Einfache Integration Ihre Prozesse durch ERP, POS und Online-Shop Anbindung über Plugings und
+                            flexible APIs.</p>
 
                     </div>
-                    <img src="/img/flexible-api-integration.jpg" alt="Flexible API-Integration">
+                    <img src="/img/flexible-api-integration.png" alt="Flexible API-Integration" class="p-h-2">
                 </div>
             </div>
         </section>
@@ -109,28 +128,32 @@
         <section id="final-cta" class="container">
 
             <div>
-                <div>
+                <div class="grid">
                     <h2>Bereit, Ihr Fahrradleasinggeschäft zu revolutionieren?</h2>
-                    <p>Unsere Leasing Automation Platform bietet Ihnen Effizienz, Kostenersparnis und eine verbesserte Benutzererfahrung. Starten Sie noch heute!</p>
-                    <a href="#contact" class="contrast">Jetzt starten</a>
+                    <div>
+                        <p>Unsere Leasing Automation Platform bietet Ihnen Effizienz, Kostenersparnis und eine
+                            verbesserte
+                            Benutzererfahrung. Starten Sie noch heute!</p>
+                        <a href="#contact" role="button">Jetzt starten</a>
+                    </div>
                 </div>
             </div>
         </section>
 
         <footer class="container">
-            <div class="grid">
-                <div>
-                    <img src="/img/blt-logo-big-no-frame.svg" alt="Company Logo" style="height: 50px;">
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#privacy">Privacy Policy</a></li>
-                        <li><a href="#terms">Terms of Service</a></li>
-                    </ul>
-                </div>
-            </div>
+            <nav class="container">
+                <ul>
+                    <li><a href="/"><img src="/img/blt-logo.svg" alt="BLT Logo" style="height: 60px;"></a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a class="contrast" href="#contact">Kontakt</a>
+                    </li>
+                    <li>
+                        <a class="contrast" href="/impressum">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
         </footer>
 
     </main>
