@@ -14,9 +14,38 @@
     --pico-primary-background: #ff5107;
     --pico-primary-underline: rgba(200, 63, 21, 0.5);
     --pico-primary-hover: #942d0d;
-    --pico-primary-hover-background: #FF5711;
+    --pico-primary-hover-background: #e35012;
     --pico-primary-focus: rgba(224, 78, 15, 0.5);
     --pico-primary-inverse: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    --pico-font-weight: 400;
+}
+
+address,
+blockquote,
+dl,
+ol,
+p,
+pre,
+table,
+ul {
+    --pico-font-weight: 300;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+.center {
+    text-align: center;
 }
 
 .mono-font {
