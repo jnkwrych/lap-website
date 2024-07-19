@@ -48,6 +48,10 @@ strong {
     text-align: center;
 }
 
+.right {
+    text-align: right;
+}
+
 .mono-font {
     font-family: "DM Mono";
 }
@@ -86,6 +90,10 @@ section {
 
 .m-0 {
     margin: 0;
+}
+
+.p-r-4 {
+    padding-right: 4rem;
 }
 
 .p-t-4 {
